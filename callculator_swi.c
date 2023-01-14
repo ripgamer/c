@@ -1,3 +1,4 @@
+//code for simple callculator using switch
 #include<stdio.h>
 int main()
 {
