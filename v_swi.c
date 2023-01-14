@@ -1,3 +1,4 @@
+//code to find out vowels using switch
 #include<stdio.h>
 int main()
 {
