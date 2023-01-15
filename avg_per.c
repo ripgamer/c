@@ -1,3 +1,4 @@
+//code to print persentage and avrage of 5 subject
 #include <stdio.h>
 int main()
 {
