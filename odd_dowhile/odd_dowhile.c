@@ -1,3 +1,4 @@
+//code to check odd even using do while
 #include<stdio.h>
 int main()
 {
@@ -8,16 +9,12 @@ int main()
     do
     {
         if(n%2==1)
-        {
-            printf("Entered number %d is ODD \n",n);
-        }
+        printf("Entered number %d is ODD \n",n);
         else
-        {
-            printf("Entered number %d is EVEN \n",n);
-           
-        }
-        printf("Do you want to continue(0/1):");
-        scanf("%d",&ch);
+        printf("Entered number %d is EVEN \n",n);
+     
+     printf("Do you want to continue(0/1):");
+     scanf("%d",&ch);
 
     }while(ch==1);
 
