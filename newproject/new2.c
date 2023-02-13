@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//
 #define MAX_STUDENTS 100
 
 struct student {
