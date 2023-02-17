@@ -97,13 +97,13 @@ void addStudent()
     scanf("%d", &newStudent.age);
     printf("Enter student cgpa: ");
     scanf("%f", &newStudent.cgpa);
-    printf("Enter student attendance: ");
+    printf("Enter student attendance\n(1=P/0=A): ");
     scanf("%d",&newStudent.attendance);
     students[studentCount++] = newStudent;
     printf("Student added successfully.\n");
 }
 
-// Display data from students array
+// Display data from students array.
 void displayStudents() 
 {
     if (studentCount == 0) 
@@ -137,7 +137,7 @@ void searchStudent()
     
         if (students[i].id == id) 
         {
-            printf("ID\tName\tAge\tGrade\n");
+            printf("ID\tName\tAge\tCgpa\tAttendance\n");
             printf("%d\t%s\t%d\t%.2f\t%d\n", students[i].id, students[i].name, students[i].age, students[i].cgpa,students[i].attendance);
         
         }
