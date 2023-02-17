@@ -103,7 +103,7 @@ void addStudent()
     printf("Student added successfully.\n");
 }
 
-// Display data from students array
+// Display data from students array.
 void displayStudents() 
 {
     if (studentCount == 0) 
