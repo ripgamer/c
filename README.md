@@ -1,6 +1,6 @@
 # Basic C programs
 
-this is a simple and basic sample codes of C language with exiculable
+this is a simple and basic sample codes of C language with exiculable.
 
 ## Features
 
@@ -9,6 +9,7 @@ this is a simple and basic sample codes of C language with exiculable
 
 
 ## Badges
+
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/ripgamer/simple-calculator/blob/main/LICENSE)
